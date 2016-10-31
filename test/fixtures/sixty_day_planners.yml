@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  startDate: 2016-10-31
+  endDate: 2016-10-31
+  eventsById: 
+  freeTimes: 
+
+two:
+  startDate: 2016-10-31
+  endDate: 2016-10-31
+  eventsById: 
+  freeTimes: 

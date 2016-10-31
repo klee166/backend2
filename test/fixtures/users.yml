@@ -1,23 +1,23 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  email: MyString
-  name: MyString
-  password: MyString
-  gmail: MyString
-  phoneNum: MyString
-  confirmationCode: MyString
+  email: klee166@jhu.edu
+  name: KwangBin
+  password: abcdefg
+  gmail: xdf123@gmail.com
+  phoneNum: 6097512617
+  confirmationCode: 2201
   isConfirmed: false
   affiliation: 1
   userEventsById: 1
 
 two:
-  email: MyString
-  name: MyString
-  password: MyString
-  gmail: MyString
-  phoneNum: MyString
-  confirmationCode: MyString
+  email: klee144@gmail.com
+  name: KwangBintwo
+  password: hijklmnop
+  gmail: klee144@gmail.com
+  phoneNum: 40433321223
+  confirmationCode: 3000
   isConfirmed: false
   affiliation: 1
   userEventsById: 1

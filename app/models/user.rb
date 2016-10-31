@@ -1,6 +1,7 @@
 class User < ApplicationRecord
 
   has_one :filter
+  has_one :sixty_day_planner
   attr_accessor :isConfirmed, :confirmationCode
 
 
@@ -24,4 +25,7 @@ class User < ApplicationRecord
     self.filter.isOn=false
   end
 
+  def set_filter(val)
+    self.filter.setEventType=val
+  end
 end

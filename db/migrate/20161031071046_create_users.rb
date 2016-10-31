@@ -13,6 +13,15 @@ class CreateUsers < ActiveRecord::Migration[5.0]
       t.timestamps
     end
 
+    create_table :sixty_day_planners do |t|
+      t.belongs_to :user, index: true
+      t.date :startDate
+      t.date :endDate
+      t.integer :eventsById, array: true
+      t.integer :freeTimes, array: true
+      t.timestamps
+    end
+ 
     create_table :filters do |t|
     t.belongs_to :user, index: true
     t.boolean :isOn

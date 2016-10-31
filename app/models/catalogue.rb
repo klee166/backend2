@@ -5,8 +5,7 @@ class Catalogue < ApplicationRecord
     @eventsById.push(val)
   end 
  
-  def drop_event(val)
+  def delete_event(val)
     @eventsById.drop(val)
   end
-
 end

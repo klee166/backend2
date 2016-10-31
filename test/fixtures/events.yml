@@ -3,13 +3,13 @@
 one:
   id: 
   expectedNum: 1
-  name: MyString
+  name: Halloween Party
   ticketPrice: 1.5
   description: MyText
   dateTime: 2016-10-31 03:29:52
   affiliation: 1
   eventType: 1
-  userIds: MyString
+  userIds: Anthony
   isLit: false
   numAddedToCal: 1
   numCheckIn: 1
@@ -17,13 +17,13 @@ one:
 two:
   id: 
   expectedNum: 1
-  name: MyString
+  name: Peabody Concert
   ticketPrice: 1.5
   description: MyText
   dateTime: 2016-10-31 03:29:52
   affiliation: 1
-  eventType: 1
-  userIds: MyString
+  eventType: 2
+  userIds: Kwang
   isLit: false
   numAddedToCal: 1
   numCheckIn: 1

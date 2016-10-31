@@ -1,13 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  building: MyString
-  room: MyString
-  latitude: 1.5
-  longitude: 1.5
+  building: Hackerman
+  room: 102
+  latitude: 11.5
+  longitude: 12.5
 
 two:
-  building: MyString
-  room: MyString
-  latitude: 1.5
-  longitude: 1.5
+  building: Bloomberg
+  room: 404
+  latitude: 14.5
+  longitude: 10.5
