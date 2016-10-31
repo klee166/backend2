@@ -30,6 +30,5 @@ class CreateUsers < ActiveRecord::Migration[5.0]
     end
 
     add_index :users, :affiliation, using: 'gin'
-    add_index :users, :affiliation, using: 'gin'
   end
 end
