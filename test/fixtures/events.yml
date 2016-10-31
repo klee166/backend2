@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: 
+  expectedNum: 1
+  name: MyString
+  ticketPrice: 1.5
+  description: MyText
+  dateTime: 2016-10-31 03:29:52
+  affiliation: 1
+  eventType: 1
+  userIds: MyString
+  isLit: false
+  numAddedToCal: 1
+  numCheckIn: 1
+
+two:
+  id: 
+  expectedNum: 1
+  name: MyString
+  ticketPrice: 1.5
+  description: MyText
+  dateTime: 2016-10-31 03:29:52
+  affiliation: 1
+  eventType: 1
+  userIds: MyString
+  isLit: false
+  numAddedToCal: 1
+  numCheckIn: 1
