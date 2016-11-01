@@ -4,7 +4,6 @@ class User < ApplicationRecord
   has_one :sixty_day_planner
   attr_accessor :isConfirmed, :confirmationCode
 
-
   def confirmationCode=(val)
     @confirmationCode = val
   end

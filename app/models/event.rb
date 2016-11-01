@@ -4,7 +4,7 @@ class Event < ApplicationRecord
   has_many :offer
   
   attr_accessor :isLit, :name
-  attr_reader :id, :expectedNum, :name, :ticketPrice, :description, :location, :isLit, :numAddedToCal, :numCheckIn
+  attr_reader :userId, :expectedNum, :name, :ticketPrice, :description, :location, :isLit, :numAddedToCal, :numCheckIn
  
   # sets lit value
   def isLit=(val)

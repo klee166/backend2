@@ -1,7 +1,7 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  id: 
+  id: 1 
   expectedNum: 1
   name: Halloween Party
   ticketPrice: 1.5
@@ -15,7 +15,7 @@ one:
   numCheckIn: 1
 
 two:
-  id: 
+  id: 2
   expectedNum: 1
   name: Peabody Concert
   ticketPrice: 1.5
